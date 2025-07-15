@@ -1,0 +1,90 @@
+:root {
+    --main: rgb(0, 255, 242);
+    --secondary: rgb(255, 247, 0);
+    --shadow: rgb(0, 178, 169);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.762);
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    margin-top: auto;
+}
+
+h1 {
+    text-align: center;
+    color: var(--main);
+    font-size: 6rem;
+    margin-top: 100px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 30px;
+    /* beri jarak dari footer */
+}
+
+button {
+    font-size: 50px;
+    background-color: var(--secondary);
+    color: black;
+    width: fit-content;
+    height: 80px;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+a button:hover {
+    background-color: var(--main);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.8s ease;
+}
+
+a {
+    text-decoration: none;
+}

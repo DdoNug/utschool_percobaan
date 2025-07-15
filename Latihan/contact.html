@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        header h2 span {
+            color: rgb(0, 255, 242)
+        }
+
+        footer {
+            background-color: var(--shadow);
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2><span>Profil</span> Dodo Nugroho</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="pesan">
+        <h2>Berikan Kesan dan Pesan Anda</h2>
+        <form action="thanks.html" method="get">
+            <div class="form-input">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td> <input type="text" name="name" id="name" placeholder="Masukkan nama anda..." required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email" id="email" placeholder="masukkan email anda..." required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kesan</td>
+                        <td><input type="text" name="kesan" id="kesan" placeholder="Masukkan Kesan Anda..." required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;">Pesan</td>
+                        <td> <textarea name="pesan" id="pesan" cols="40" rows="4" placeholder="Masukkan pesan anda..."
+                                style="width: 100%; display:flex;" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit" >KIRIM</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+    <div class="kontak">
+        <h2>Hubungi saya Melalui :</h2>
+        <div class="icon">
+            <a href="https://www.instagram.com/dodnugr_?igsh=MWJld2liaWVkdXVrbA==" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/6285641890185" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:dodonugroho737@gmail.com" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dodo Nugroho. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
